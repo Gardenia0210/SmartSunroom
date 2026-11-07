@@ -1,0 +1,50 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = PROJECT_ROOT / "data"
+PHOTOS_DIR = DATA_DIR / "photos"
+CAPTURES_DIR = DATA_DIR / "captures"
+OUTPUTS_DIR = DATA_DIR / "outputs"
+
+# 相邻工程：光敏电阻太阳角采集 / 预测
+ANGLEPRE_ROOT = PROJECT_ROOT.parent / "AnglePre"
+ANGLEPRE_COLLECTOR = ANGLEPRE_ROOT / "collector"
+ANGLEPRE_MODEL_TRAIN = ANGLEPRE_ROOT / "model_train"
+
+GRID_COLS = 5
+GRID_ROWS = 6
+GRID_COUNT = GRID_COLS * GRID_ROWS
+
+CAPTURE_WIDTH = 720
+CAPTURE_HEIGHT = 1280
+
+# 分割与 5×6 标号前，将整图顺时针旋转 90°（与阳光房玻璃布局一致）
+IMAGE_ROTATE_CW90 = True
+
+SERIAL_BAUD = 115200
+# USB 打开串口会复位 Mega；留足时间进 loop 再 PING
+SERIAL_OPEN_DELAY_SEC = 4.0
+# 固件 SET 逐路 delay 300ms×15 ≈ 5s+，双板需更长读超时
+SERIAL_READ_TIMEOUT_SEC = 12.0
+SERIAL_READ_RETRIES = 5
+
+DEFAULT_MODEL = "fashn-ai/fashn-human-parser"
+
+# --- 演示向导默认值 ---
+DEFAULT_ANGLE_PORT = "COM11"
+DEFAULT_MEGA_PORT = "COM8"       # 模块1：舵机 1–15 + 大舵机
+DEFAULT_MEGA2_PORT = "COM10"     # 模块2：舵机 16–30
+DEMO_FORCE_ANGLES = True
+DEMO_NS_DEG = 75.0
+DEMO_EW_DEG = 60.0
+BIG_SERVO_ZERO_DEG = 110.0
+DEMO_BIG_SERVO_ABS_DEG = 125
+DEFAULT_POS1_GRID_CSV = OUTPUTS_DIR / "pos1_grid_5x6.csv"
+DEFAULT_POS1_GRID_PNG = OUTPUTS_DIR / "pos1_grid_5x6.png"
+DEFAULT_DEMO_AGE = 25
+DEFAULT_DEMO_YOUNG_MODE = "relaxation"
+
+# 遮挡高亮可视化
+BLOCK_HIGHLIGHT_FILL = (255, 48, 48, 150)
+BLOCK_HIGHLIGHT_OUTLINE = (255, 230, 40)
+BLOCK_DIM_FILL = (20, 20, 20, 90)

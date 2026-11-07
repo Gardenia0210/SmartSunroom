@@ -1,0 +1,170 @@
+{
+  "input_layout": {
+    "shape": [
+      2,
+      4
+    ],
+    "description": "行：同一方位的两只电阻的第 1、第 2 路；列：按 rows_order 的四个方位。",
+    "rows_order": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ],
+    "row0_columns": [
+      "east_1",
+      "south_1",
+      "west_1",
+      "north_1"
+    ],
+    "row1_columns": [
+      "east_2",
+      "south_2",
+      "west_2",
+      "north_2"
+    ]
+  },
+  "output_type": "classification",
+  "classes": [
+    {
+      "class_id": 0,
+      "ns_deg": 45.0,
+      "ew_deg": 30.0
+    },
+    {
+      "class_id": 1,
+      "ns_deg": 45.0,
+      "ew_deg": 45.0
+    },
+    {
+      "class_id": 2,
+      "ns_deg": 45.0,
+      "ew_deg": 60.0
+    },
+    {
+      "class_id": 3,
+      "ns_deg": 45.0,
+      "ew_deg": 90.0
+    },
+    {
+      "class_id": 4,
+      "ns_deg": 45.0,
+      "ew_deg": 120.0
+    },
+    {
+      "class_id": 5,
+      "ns_deg": 45.0,
+      "ew_deg": 135.0
+    },
+    {
+      "class_id": 6,
+      "ns_deg": 45.0,
+      "ew_deg": 150.0
+    },
+    {
+      "class_id": 7,
+      "ns_deg": 60.0,
+      "ew_deg": 30.0
+    },
+    {
+      "class_id": 8,
+      "ns_deg": 60.0,
+      "ew_deg": 45.0
+    },
+    {
+      "class_id": 9,
+      "ns_deg": 60.0,
+      "ew_deg": 60.0
+    },
+    {
+      "class_id": 10,
+      "ns_deg": 60.0,
+      "ew_deg": 90.0
+    },
+    {
+      "class_id": 11,
+      "ns_deg": 60.0,
+      "ew_deg": 120.0
+    },
+    {
+      "class_id": 12,
+      "ns_deg": 60.0,
+      "ew_deg": 135.0
+    },
+    {
+      "class_id": 13,
+      "ns_deg": 60.0,
+      "ew_deg": 150.0
+    },
+    {
+      "class_id": 14,
+      "ns_deg": 90.0,
+      "ew_deg": 30.0
+    },
+    {
+      "class_id": 15,
+      "ns_deg": 90.0,
+      "ew_deg": 45.0
+    },
+    {
+      "class_id": 16,
+      "ns_deg": 90.0,
+      "ew_deg": 60.0
+    },
+    {
+      "class_id": 17,
+      "ns_deg": 90.0,
+      "ew_deg": 90.0
+    },
+    {
+      "class_id": 18,
+      "ns_deg": 90.0,
+      "ew_deg": 120.0
+    },
+    {
+      "class_id": 19,
+      "ns_deg": 90.0,
+      "ew_deg": 135.0
+    },
+    {
+      "class_id": 20,
+      "ns_deg": 90.0,
+      "ew_deg": 150.0
+    },
+    {
+      "class_id": 21,
+      "ns_deg": 120.0,
+      "ew_deg": 30.0
+    },
+    {
+      "class_id": 22,
+      "ns_deg": 120.0,
+      "ew_deg": 45.0
+    },
+    {
+      "class_id": 23,
+      "ns_deg": 120.0,
+      "ew_deg": 60.0
+    },
+    {
+      "class_id": 24,
+      "ns_deg": 120.0,
+      "ew_deg": 90.0
+    },
+    {
+      "class_id": 25,
+      "ns_deg": 120.0,
+      "ew_deg": 120.0
+    },
+    {
+      "class_id": 26,
+      "ns_deg": 120.0,
+      "ew_deg": 135.0
+    },
+    {
+      "class_id": 27,
+      "ns_deg": 120.0,
+      "ew_deg": 150.0
+    }
+  ]
+}

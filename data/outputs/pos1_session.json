@@ -1,0 +1,162 @@
+{
+  "timestamp": "2026-07-26T23:33:18",
+  "user": "Young Adults (Relaxation-oriented)",
+  "light": "VIS",
+  "ns_angle": 75.0,
+  "ew_zero": 60.0,
+  "ns_servo": 125,
+  "small_angles": [
+    60,
+    150,
+    60,
+    150,
+    60,
+    60,
+    150,
+    150,
+    60,
+    60,
+    60,
+    60,
+    150,
+    150,
+    60,
+    60,
+    60,
+    150,
+    150,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60
+  ],
+  "grid": [
+    {
+      "grid_id": 1,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 2,
+      "bodypart": "Head"
+    },
+    {
+      "grid_id": 3,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 4,
+      "bodypart": "Head"
+    },
+    {
+      "grid_id": 5,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 6,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 7,
+      "bodypart": "Head"
+    },
+    {
+      "grid_id": 8,
+      "bodypart": "Head"
+    },
+    {
+      "grid_id": 9,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 10,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 11,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 12,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 13,
+      "bodypart": "Torso"
+    },
+    {
+      "grid_id": 14,
+      "bodypart": "Torso"
+    },
+    {
+      "grid_id": 15,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 16,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 17,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 18,
+      "bodypart": "Torso"
+    },
+    {
+      "grid_id": 19,
+      "bodypart": "Torso"
+    },
+    {
+      "grid_id": 20,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 21,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 22,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 23,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 24,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 25,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 26,
+      "bodypart": "空"
+    },
+    {
+      "grid_id": 27,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 28,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 29,
+      "bodypart": "Limbs"
+    },
+    {
+      "grid_id": 30,
+      "bodypart": "空"
+    }
+  ]
+}

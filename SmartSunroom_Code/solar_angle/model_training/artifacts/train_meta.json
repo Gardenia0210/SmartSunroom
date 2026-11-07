@@ -1,0 +1,29 @@
+{
+  "data_dir": "E:\\SFK\\Project3\\AnglePre\\collector\\data_normalized",
+  "split_method": "session_generalization",
+  "n_samples_raw": 2900,
+  "n_samples_unique": 2361,
+  "n_duplicate_rows_dropped": 456,
+  "train_test_feature_overlap": 0,
+  "train_val_feature_overlap": 0,
+  "n_classes": 28,
+  "train_ratio": 0.8,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "standalone_test_fraction": 0.12,
+  "n_test_session_tail": 220,
+  "n_test_standalone": 11,
+  "standalone_test_files": [
+    "collect_ns90p00_ew45p00.csv"
+  ],
+  "random_seed": 42,
+  "n_estimators": 200,
+  "max_depth": 8,
+  "min_samples_leaf": 2,
+  "feature_noise_std": 0.0,
+  "feature_noise_copies": 1,
+  "label_noise_rate": 0.0,
+  "n_train": 1906,
+  "n_val": 224,
+  "n_test": 231
+}
